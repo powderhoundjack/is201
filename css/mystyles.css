@@ -1,13 +1,117 @@
-body{
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: rgba(166, 182, 195, 0.737);
+/* scratch_styles.css - Professional and Polished stylesheet for scratch.html */
+
+/* Import professional fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* --- Divs for Positioning and Styling --- */
+
+/* 1. Body/Background Style (Includes Custom Background Color & Professional Font Family) */
+body {
+    /* Keeping the custom light blue/grey theme */
+    background-color: #e0edf8; 
+    
+    /* Specified Professional Font Family */
+    font-family: 'Roboto', sans-serif;
+    
+    /* Specified Default Font Color */
+    color: #333; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
-h1, h2, h3, h4, h5, h6, p{
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+/* 2. Navigation Div (.nav-bar-custom) (Div 1: Professional Header Directory) */
+.nav-bar-custom {
+    background-color: #170d7d; /* Primary accent color (Alta Blue) */
+    padding: 15px 50px; /* Increased padding for a better look */
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: flex-end; /* Push links to the right */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    border-bottom: 3px solid #bb1f07; /* Subtle accent line */
 }
-a{
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+.nav-bar-custom a {
+    color: #ffffff; /* Specified Font Color */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 15px; /* Spacing between links */
+    margin-left: 20px;
+    transition: color 0.3s;
 }
-.CSFont{
-    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+
+.nav-bar-custom a:hover {
+    color: #bb1f07; /* Yellow highlight on hover */
+}
+
+/* 3. Main Content Div (.content-block) (Div 2: Centered, Clean Block) */
+.content-block {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto; 
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. Media Item Div (.media-item) (Div 3: Used for Media Containers) */
+.media-item {
+    width: calc(50% - 15px); 
+    min-width: 300px;
+    flex-grow: 1;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Other Custom Styles --- */
+
+/* 5. Custom Header Style (Font Color and Family) */
+h1 {
+    color: #bb1f07; /* Deep blue header color */
+    font-family: 'Merriweather', serif; /* Professional serif font for titles */
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* 6. Sub-Headers */
+h2 {
+    color: #bb1f07; /* Accent color for section headers */
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+/* 7. Custom Image Style */
+.custom-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #170d7d; 
+    border-radius: 8px; /* Square/Rectangle with rounded corners */
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 8. Custom List Container Style (Formatting) */
+.list-container {
+    padding: 15px 25px;
+    border-left: 4px solid #170d7d; /* Accent line */
+    background-color: #f9f9f9; 
+    border-radius: 5px;
+}
+
+.media-flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 20px;
 }

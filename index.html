@@ -3,152 +3,162 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content="Professional portfolio and resume focusing on data analysis and web development." />
         <meta name="author" content="" />
-        <title>Alta Snowfall</title>
+        <title>My Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/mystyles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            /* Custom professional styles for the Resume section */
+            .resume-section {
+                padding-top: 3rem;
+                padding-bottom: 2rem;
+            }
+            .resume-section h2 {
+                margin-bottom: 1.5rem;
+                border-bottom: 2px solid #0085a1; /* Accent color from template */
+                padding-bottom: 0.5rem;
+            }
+            .resume-section h4 {
+                color: #0085a1;
+                margin-top: 1.5rem;
+            }
+            .resume-item {
+                margin-bottom: 1.5rem;
+            }
+            .job-title {
+                font-weight: 700;
+                color: #212529; /* Darker text for titles */
+            }
+            .dates {
+                float: right;
+                font-style: italic;
+            }
+            /* Removed the unnecessary <br> tags you had inside the <ul>'s in the original code */
+            .resume-item ul li:first-child { 
+                margin-top: 0.5rem;
+            }
+        </style>
     </head>
     <body>
-        <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">HOME</a>
+                <a class="navbar-brand" href="index.html">My Portfolio</a> 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="scratch.html">Scratch</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html#resume">Résumé</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="scratch.html">Alta Terrain</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Let's go Skiing</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Page Header-->
+        
         <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
-                            <h1>Alta Snowfall</h1>
-                            <span class="subheading CSFont">Let's go Skiing</span>
+                            <h1>Jack Arnold</h1>
+                            <span class="subheading CSFont">Finance, Dental, and Ski</span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Main Content-->
+        
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
+                    
+                    <section id="resume" class="resume-section">
+                        <h2>Résumé</h2>
+                        
+                        <h4>Education</h4>
+                        <div class="resume-item">
+                            <p class="job-title mb-0">Brigham Young University – Marriott School of Business <span class="dates">Provo, UT</span></p>
+                            <p class="mb-0">Bachelor of Science in Finance <span class="dates">Expected: Apr 2028</span></p>
+                            <p class="mb-1">GPA 3.6 / 4.00</p>
+                            <p class="mb-0">Member of BYU Finance Society, Private Banking and Wealth Management Association</p>
+                        </div>
+
+                        <h4>Experience</h4>
+                        
+                        <div class="resume-item">
+                            <p class="job-title mb-0">Smile Perfect Orthodontics | Clinical Assistant <span class="dates">Cedar Hills, UT | May 2022 – Present</span></p>
+                            <ul class="mt-1">
+                                <br>
+                                <li>Assisted the doctor and patients by providing clinical care and maintaining high patient satisfaction.</li>
+                                <li>Became proficient in specialized orthodontic procedures: taking radiographs, impressions, changing wires, bonding brackets, giving oral care instructions, and processing digital workflow.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <p class="job-title mb-0">Smile Perfect Orthodontics | Lab Technician <span class="dates">Cedar Hills, UT | May 2022 – Present</span></p>
+                            <ul class="mt-1">
+                                <br>
+                                <li>Fabricated custom orthodontic appliances, including retainers, lower lingual holding arches, and expanders.</li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="job-title mb-0">Jack Mows | Owner (Landscaping Business) <span class="dates">Highland, UT | Apr 2014 – Oct 2020</span></p>
+                            <ul class="mt-1">
+                                <br>
+                                <li>Founded and managed a lawncare business starting at age 10, demonstrating early entrepreneurial drive.</li>
+                                <li>Executed all business operations, including mowing and edging neighborhood yards.</li>
+                                <li>Employed and managed friends, gaining foundational leadership and management experience.</li>
+                            </ul>
+                        </div>
+
+                        <h4>Leadership & Service</h4>
+
+                        <div class="resume-item">
+                            <p class="job-title mb-0">The Church of Jesus Christ of Latter-day Saints | Volunteer Representative <span class="dates">Cabanatuan, Philippines | May 2023 – May 2025</span></p>
+                            <ul class="mt-1">
+                                <br>
+                                <li>Served as a zone leader for 6 months, facilitating leadership development across 6 geographical areas encompassing 20-30 volunteers.</li>
+                                <li>Managed administrative responsibilities, including financial reports, travel arrangements, and decision support for 140 volunteers.</li>
+                                <li>Trained volunteer leaders in effective teaching skills and mentoring strategies.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <p class="job-title mb-0">Lone Peak High School | Editor in Chief (Yearbook) <span class="dates">Highland, UT | Aug 2020 – May 2022</span></p>
+                            <ul class="mt-1">
+                                <br>
+                                <li>Oversaw all layouts and content for the yearbook, acting as team lead on all production projects.</li>
+                                <li>Conducted interviews with students and faculty, capturing school experiences and events.</li>
+                            </ul>
+                        </div>
+
+                        <h4>Awards, Skills & Interests</h4>
+                        <div class="resume-item">
+                            <p><strong>Awards:</strong> Winford Wealth Case Competition, High School Golf Academic All-State 1st Team Athlete, 4-time State Champion, Spirit of Lone Peak Award.</p>
+                            <p><strong>Skills:</strong> Fluent in Tagalog, Data Analysis (HTML/CSS/JavaScript), Financial Modeling, Public Speaking, Leadership Development.</p>
+                            <p><strong>Interests:</strong> Avid Skier (Member of the All-Mountain Team at Alta Ski Resort), Piano Player (original compositions).</p>
+                        </div>
+                    </section>
+
                     <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
                 </div>
             </div>
         </div>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
+                <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2025</div>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-    </body>
+    </body> 
 </html>
